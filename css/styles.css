@@ -1,0 +1,123 @@
+/* 
+  style sheet
+ */
+
+#messageWindow {
+  background-color: white;
+  color: black;
+  width: 30%;
+  border-style:solid;
+  border-width:0px;
+  border-color:red;
+  border-radius:10px;
+  padding: 15px;
+  font-size: 12px;
+}
+
+ 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-page {
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+  height: 860px;
+}
+
+
+.sitename {
+  color: #303030;
+  position: relative;
+  padding-left: 40%;
+  padding-top: 25%;
+  font-style:italic;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%
+}
+
+.tagcopyright {
+  margin:0;
+  padding:10px;
+  border:0;
+  font-size: 14px;
+  background-color: black;
+  color: #4682b4;
+}
+
+
+ .whichpage {
+   background-color: white;
+   color: black;
+   width: 100%;
+   font-size: 30px;
+   text-align: left;
+   padding: 20px 25px 25px 115px;
+} 
+
+ .wrapper {
+   background-color: white;
+   color: black;
+   width: 100%;
+   text-align: left;
+   padding: 20px 25px 25px 115px;
+   font-size: 20px;
+   /* height: 860px; */
+   /* border: 1px solid black; */
+} 
+
+
+.topmenu {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topmenu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topmenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  
+.button {
+  text-align:center;
+  background-color:white;
+  color: black;
+}
+  
+  
+.button:hover {
+  background-color:black;
+  color: white;
+  cursor:pointer;
+}
+
+.bLarge {
+  width:80px;
+  border: 1px solid black;
+  border-radius:10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.bSmall {
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 16px;
+}
