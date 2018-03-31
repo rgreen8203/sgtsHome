@@ -81,7 +81,7 @@ function save_contact_message($email, $comment) {
   // Explicitly state the column names
   // Will generate an error if the database schema changes
   // If column names are omitted, we have to use 'null' for the first column because it is auto-increment
-  $qstring = "INSERT into Communication (TypeEnum, StatusEnum, Sender, Recipient, MsgTime, Sequence, Message) VALUES" .
+  $qstring = "INSERT into Communication (type_enum,status_enum,sender,recipient,message_time,line_sequence,message) VALUES" .
              "(1, 1, '$email', 'support@sgts.io', SYSDATE(), 0,'$comment')";
   db_query($qstring);
 }
