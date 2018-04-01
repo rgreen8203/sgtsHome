@@ -15,26 +15,30 @@
 }
 
  
-body {
+body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
+ 
 .landing-page {
-  background: url(../images/background.jpg);
+  position: relative;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-color: black;
-  height: 860px;
-}
+  background-size: cover;
+  background-image: url(../images/background.jpg);
+  height: 100%;
 
+}
 
 .sitename {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
   color: #303030;
-  position: relative;
-  padding-left: 40%;
-  padding-top: 25%;
-  font-style:italic;
 }
 
 .footer {
